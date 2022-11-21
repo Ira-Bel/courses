@@ -106,16 +106,7 @@ print(
 
 
 #max temp day
-max_t = 0
-ind_max = 0
-for row in temp:
-    for i in range(len(row)):
-        if row[i] > max_t:
-            max_t = row[i]
-            day = ind_max
-    ind_max += 1
-# print(f'{day}day - {max_t}degrees')
-print(day, max_t)
+
 
 print(
     list(
