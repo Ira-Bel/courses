@@ -1,4 +1,13 @@
-/.gitignore
+/3.1.py
+/3.2.py
+/3.3.py
+/3.4.py
+/3.5.py
+/3.6.py
+/3.7.py
+/3.8.py
+/3.9.py
+/4.py
 /123.py
 /123.spec
 /data.json
@@ -20,6 +29,3 @@
 /temp_max.py
 /time.py
 /work_book.xlsx
-/venv/
-/dist
-/.idea/
