@@ -60,19 +60,7 @@ def second_degree_elements(matrix):
 print_matrix(second_degree_elements(matrix))
 
 
-#
-#  печать элементов в обратном порядке с возвращением в матрицу
-# def matrix_reverse(matrix):
-#     new_matrix = []
-#     for element in matrix:
-#         current_matrix = []
-#         for ind in reversed (element):
-#             current_matrix.append(ind)
-#         new_matrix.append(current_matrix)
-#     return reversed (new_matrix)
-#
-#
-# print_matrix(matrix_reverse(matrix))
+
 
 
 # Печать элемента в обратном порядке с добавлением в матрицу
