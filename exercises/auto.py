@@ -64,10 +64,10 @@ class Car(Auto):
         return f'{self.brand} * {self.age} * {self.color} * {self.mark} * {self.max_speed}'
 
 
-truck1 = Truck('Volvo', 2, 'silver', 'FH13', '44t')
-truck2 = Truck('Ford', 3, 'brown', '1835T HR Air', '30t')
-car1 = Car('Honda', 1, 'black', 'Civic', '270 kph')
-car2 = Car('Ford', 5, 'red', 'Mustang', '250 kph')
+truck1 = Truck('Volvo', 2, 'FH13', '44t')
+truck2 = Truck('Ford', 3, '1835T HR Air', '30t')
+car1 = Car('Honda', 1, 'Civic', '270 kph')
+car2 = Car('Ford', 5, 'Mustang', '250 kph')
 
 print(truck1)
 print(truck1.move())
