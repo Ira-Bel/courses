@@ -42,9 +42,6 @@ def mean_elements(matrix):
 print(mean_elements(matrix))
 
 
-aver_elem = sum([elem for row in matrix for elem in row]) / len([element for raw in matrix for element in raw])
-
-
 # возведение элемента в квадрат и возвращение в матрицу
 def second_degree_elements(matrix):
     new_matrix = []
@@ -60,7 +57,30 @@ def second_degree_elements(matrix):
 print_matrix(second_degree_elements(matrix))
 
 
-
+# # 1 печать элементов в обратном порядке без возврата в матрицу
+# def reverse_matrix(matrix):
+#     for raw in reversed(matrix):
+#         for element in reversed(raw):
+#             print("%5d" % element, end =' ')
+#         print()
+#     return""
+#
+#
+# print(reverse_matrix(matrix))
+#
+#
+# # 2 печать элементов в обратном порядке с возвращением в матрицу
+# def matrix_reverse(matrix):
+#     new_matrix = []
+#     for element in matrix:
+#         current_matrix = []
+#         for ind in reversed (element):
+#             current_matrix.append(ind)
+#         new_matrix.append(current_matrix)
+#     return reversed (new_matrix)
+#
+#
+# print_matrix(matrix_reverse(matrix))
 
 
 # Печать элемента в обратном порядке с добавлением в матрицу
