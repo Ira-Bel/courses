@@ -46,7 +46,7 @@ class Truck (Auto):
         return f'load'
 
     def __str__(self):
-        super.__str__({self.max_load})
+        super.__str__(self)
         return f'{self.brand} * {self.age} * {self.color} * {self.mark} * {self.max_load}'
 
 class Car(Auto):
@@ -60,7 +60,7 @@ class Car(Auto):
         return f'{auto_move} Max speed is {self.max_speed}'
 
     def __str__(self):
-        super.__str__({self.max_speed})
+        super.__str__(self)
         return f'{self.brand} * {self.age} * {self.color} * {self.mark} * {self.max_speed}'
 
 
