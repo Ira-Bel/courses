@@ -1,3 +1,3 @@
-HI
-I'm Ira
-I try to learn Python
+Hi!
+I'm Ira.
+I try to learn Python...
